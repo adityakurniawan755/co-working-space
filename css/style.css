@@ -1,0 +1,270 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+h2{
+    text-transform: uppercase;
+}
+span{
+    color:#218f9c;
+}
+
+/* navbar */
+.navbar .navbar-brand{
+    font-size: 25px;
+    font-weight: 700;
+    color: #59cade !important;
+}
+.navbar-nav .nav-link{
+    color: white !important;
+    padding: 0 30px !important;
+}
+.navbar-nav .nav-link:hover{
+    color: #29def2 !important;
+    font-weight: 700 !important;
+}
+.bg-transparent.scrolled{
+    background: black !important;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+    transition: 0.3s ease;
+}
+
+
+/* jumbotron */
+.jumbotron{
+    background-image: url(../img/jumbotron\ 1.jpg);
+    background-size: cover;
+    height: 800px;
+    text-align: center;
+}
+.jumbotron .container{
+    transform: translateY(70%);
+    border: 1px solid white;
+    padding: 20px;
+}
+.jumbotron .display-4{
+    color: #29def2;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+    font-size: 55px;
+    line-height: 70px;
+}
+.jumbotron .display-4 span{
+    color: #29def2;
+    font-weight: 700;
+}
+.jumbotron p{
+    margin-top: 30px;
+    color: white;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+}
+
+/* about */
+#about{
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+#about img{
+    border-radius: 20px;
+}
+#about h2{
+    line-height: 45px;
+    letter-spacing: 1px;
+}
+#about P{
+    padding: 30px 0;
+    line-height: 30px;
+}
+#about .brunch{
+    margin-top: 80px;
+}
+
+
+
+/* benefit */
+#benefit{
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+#benefit h2::after{
+    content: '';
+    display: block;
+    height: 3px;
+    width: 150px;
+    background: #29def2;
+    margin: 10px auto;
+}
+.info {
+    margin-top: 40px;
+}
+.benefit-1{
+    text-align: center;
+}
+.benefit-1 img{
+    border-radius: 10px;
+}
+.benefit-1 h4{
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+
+
+
+/* history */
+#history{
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+#history h2::after{
+    content: '';
+    display: block;
+    height: 3px;
+    width: 130px;
+    background: #29def2;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+#history img{
+    border-radius: 10px;
+}
+#history p{
+    line-height: 30px;
+}
+
+/* offer */
+#offer{
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+#offer h2::after{
+    content: '';
+    display: block;
+    height: 3px;
+    width: 350px;
+    background: #29def2;
+    margin: 20px auto;
+}
+#offer .head-content{
+    padding-top: 10px;
+}
+#offer .head-content p{
+    padding: 10px 0;
+}
+#offer .package p{
+    text-align: justify;
+}
+#offer .head-content p{
+    line-height: 30px;
+}
+.package img{
+    border-radius: 20px;
+}
+.package h4{
+    text-transform: uppercase;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+
+/* gallery */
+#gallery{
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+#gallery h2::after{
+    content: '';
+    display: block;
+    height: 3px;
+    width: 100px;
+    background: #29def2;
+    margin: 10px auto;
+}
+.gallery-content{
+    margin-top: 30px;
+}
+.gallery-content img{
+    border-radius: 20px;
+}
+#gallery .content-2{
+    margin-top: 20px;
+}
+
+
+/* testimonial */
+#testimonial{
+    padding-top: 60px;
+    padding-bottom: 50px;
+}
+#testimonial h2::after{
+    content: '';
+    display: block;
+    height: 3px;
+    width: 150px;
+    background: #29def2;
+    margin: 10px auto;
+}
+#testimonial p{
+    line-height: 30px;
+}
+.profile{
+    border: 1px solid #218f9c;
+    border-radius: 20px;
+    background-color: white;
+    padding: 70px 10px 10px;
+}
+.user{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+.profile img{
+    border: 5px solid white;
+    position: absolute;
+    top: -60px;
+    left: calc(100% / 3);
+}
+blockquote{
+    font-size: 15px;
+    line-height: 25px;
+}
+.testi-content{
+    margin-top: 75px;
+}
+.star i{
+    color: gold;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+    padding: 10px 0;
+}
+
+
+
+/* Booking */
+#booking{
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+#booking h2::after{
+    content: '';
+    display: block;
+    height: 3px;
+    width: 100px;
+    background: #29def2;
+    margin: 10px auto;
+}
+#booking .form-content{
+    margin-top: 30px;
+}
+
+
+/* footer */
+#footer{
+    background: #218f9c;
+    padding: 15px;
+    color: #ffffff;
+}
+#footer .icon i{
+    font-size: 20px;
+    padding: 20px 20px;
+}
